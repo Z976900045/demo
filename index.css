@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+       *{
+		padding:0;
+		margin:0;
+	}
+  /* 导航部分 */
+    .nav{
+    	border:1px solid white;
+    	background:#f2f2f2;
+    	height:20px;
+    	width:100%;
+    	margin:0 auto;
+    }
+    .cantian{
+      width:1200px;
+      line-height:20px;
+      text-align:center;
+      margin:0 auto;
+    }
+    .left {
+    	float:left;
+    	margin:0 auto;
+    	font-size:12px;     
+    }
+    .left span{
+     padding:5px 0px 5px 15px; 
+     color:black;
+    }
+
+    .right{
+    	float:right;
+    	margin:0 auto;
+    	font-size:12px;
+    }
+     .right span{
+     padding:5px 0px 5px 15px; 
+    }
+    .right ul{
+      float:right;
+      margin-top:0px;
+      padding:0px 10px;
+      margin-left:10px;
+      background:white;
+      width:70px;
+      box-sizing: border-box;
+    }
+    .right ul li{
+     list-style:none;
+     width:48px;
+
+    }
+    .hid{
+      display:none;
+    }
+     .left a{
+      color:black;
+     }
+     .right a{
+      color:black;
+     }
+     a:link{
+      text-decoration:none;
+     }
+     a:hover{
+       color:orange;
+     }
+     .ul1:hover li{
+      display:block;
+     }
+     .ul1:hover{
+      border:1px solid #ccc;
+      padding:0px 10px;
+      margin-left:10px;
+      color:orange;
+      box-sizing: border-box;
+     }
+     /* 导航结束 */
+     /* Top部分 */
+     .top{
+      height:100px;
+     }
+     .container{
+      width:1200px;
+      margin:0 auto;
+     }
+      .leftpic img{
+        width:auto;
+        height:60px;
+        float:left;
+        padding-left:30px;
+      }
+      
+      .i1{
+        height:30px;
+        border-color:orange;
+        border-radius:15px 0px 0px 15px;
+        margin-left:60px;
+        border:none;
+        border:1px solid orange;
+        outline:none;
+        text-indent:20px;
+     }
+      .i2{
+        margin-left:0px; 
+        border-radius:0px 15px 15px 0px;
+        background:orange;
+        height:33px;
+        color:white;
+        margin-left:-10px;
+        width:60px;
+        border:none;
+        outline:none;
+      }
+      .top{
+        margin-top:20px;
+      } 
+       .xiaozi{
+        margin-left:20px;
+        width:800px;
+        padding-left:20px;
+       } 
+       .xiaozi span{
+        color:gray;
+        font-size:0.5em;
+        position:relative;
+        left:80px;
+        font-size:12px;
+       }  
+      .rightpic img{
+        width:auto;
+        height:80px;     
+        position:absolute;
+        left:1400px;
+        top:43px;
+        z-index:-1;
+      }
+      /* top结束 */
+      /* suoyin开始 */
+      .suoyin{
+        margin-top:-20px;
+        /* height:64px; */
+        width:auto;
+        border-bottom:5px solid rgb(255, 80, 0);
+      }
+       .container2{
+        width:1200px;
+        margin:0 auto;
+        height:46px;
+        text-align:center;
+        margin-left:285px;
+       }
+       .ul2{
+         float:left;
+         list-style:none;
+         height:5px;
+       }
+       .ul2 li:first-child{
+          background:rgb(255, 80, 0);
+          height:30px;
+          width:165px;
+          text-align:center;
+          line-height:30px;
+          color:white;
+       }
+       .ul2 li .li1 {
+       font-color:orange;
+       }
+       .ul2 li {
+        display:inline-block;
+        font-size:16px;
+        text-align:center;      
+        width:90px;
+        margin-left:15px;    
+       }
+       #li1 a{
+        color:orange;
+        font-weight:bold;
+       }
+       .container2 a{
+        color:#323232;
+        font-family:微软雅黑;
+       }
+       .ul2 a:hover{
+        color:orange;
+        font-weight:bold;
+       }
+   
+      /* suoyin结束 */
+      /* body */
+      .container3{
+        width:1200px;
+        margin:0 auto;
+        margin-left:300px;
+        border:solid 1px #ccc;
+        height:800px;
+      }
+      .fenlei{
+        height:480px;
+        width:162px;
+        border:1px solid rgb(255, 80, 0);
+        margin-left:39px;
+        margin-top:-1px;
+      }
+      .ad1{
+        width:98%;
+        height:75px;
+        margin-top:-33px;
+        border-bottom:1px solid #ccc;
+        margin-left:5px;
+      }
+      .px{
+        margin-top:30px;
+      }
+     
+      .pxx span{
+        margin-left:2px;
+      }
+      .pxx span a{
+        font-size:12px;
+      }
+      .more {
+        position:relative;
+        top:455px;
+        left:50px;
+        font-size:12px;
+      }
+      .icon-arrow-right-copy{
+        position: relative;
+
+      }
+       
+      .daohang{
+        width:970px;
+        height:250px;
+        border:1px solid #ccc;
+        position:absolute;
+        left:537px;
+        top:200px;
+      }
+      .swiper-container{
+        height:300px;
+      }
+
+	</style>
+</head>
+<body>
+	
+</body>
+</html>

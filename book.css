@@ -1,0 +1,897 @@
+ * {
+     padding: 0;
+     margin: 0;
+ }
+ /* 导航部分 */
+
+ .nav {
+     border: 1px solid white;
+     background: #f2f2f2;
+     height: 20px;
+     /*  width:100%; */
+     margin: 0 auto;
+     text-align: center;
+ }
+
+ .cantian {
+     width: 1200px;
+     line-height: 20px;
+     text-align: center;
+     margin: 0 auto;
+ }
+
+ .left {
+     float: left;
+     margin: 0 auto;
+     font-size: 12px;
+ }
+
+ .left span {
+     padding: 5px 0px 5px 15px;
+     color: black;
+     display: inline-block;
+ }
+
+ .right {
+     float: right;
+     margin: 0 auto;
+     font-size: 12px;
+ }
+
+ .right span {
+     padding: 5px 0px 5px 15px;
+ }
+
+ .right ul {
+     float: right;
+     margin-top: 0px;
+     padding: 0px 10px;
+     margin-left: 10px;
+     width: 78px;
+     box-sizing: border-box;
+ }
+
+ .right .iconfont {
+     position: relative;
+     left: 82px;
+ }
+
+ .left .iconfont {
+     position: relative;
+     left: 103px;
+ }
+
+ .right ul li {
+     list-style: none;
+     margin-bottom: 10px;
+     width: 48px;
+ }
+
+ .hid {
+     display: none;
+ }
+
+ .left a {
+     color: black;
+ }
+
+ .right a {
+     color: black;
+ }
+
+ a:link {
+     text-decoration: none;
+ }
+
+ a:hover {
+     color: orange;
+ }
+
+ .ul1:hover li {
+     display: block;
+ }
+
+ .ul1:hover {
+     border: 1px solid #ccc;
+     padding: 0px 10px;
+     margin-left: 10px;
+     color: orange;
+     box-sizing: border-box;
+     background: white;
+ }
+ /* 导航结束 */
+ /* Top部分 */
+
+ .top {
+     height: 100px;
+ }
+
+ .container {
+     width: 1200px;
+     margin: 0 auto;
+ }
+
+ .leftpic img {
+     width: auto;
+     height: 60px;
+     float: left;
+     padding-left: 30px;
+ }
+
+ .i1 {
+     height: 30px;
+     border-color: orange;
+     border-radius: 15px 0px 0px 15px;
+     margin-left: 60px;
+     border: none;
+     border: 1px solid orange;
+     outline: none;
+     text-indent: 20px;
+ }
+
+ .i2 {
+     margin-left: 0px;
+     border-radius: 0px 15px 15px 0px;
+     background: orange;
+     height: 33px;
+     color: white;
+     margin-left: -10px;
+     width: 60px;
+     border: none;
+     outline: none;
+ }
+
+ .top {
+     margin-top: 20px;
+ }
+
+ .xiaozi {
+     margin-left: 20px;
+     width: 800px;
+     padding-left: 20px;
+ }
+
+ .xiaozi span {
+     color: gray;
+     font-size: 0.5em;
+     position: relative;
+     left: 80px;
+     font-size: 12px;
+ }
+
+ .rightpic img {
+     width: auto;
+     height: 80px;
+     position: absolute;
+     left: 1400px;
+     top: 43px;
+     z-index: -1;
+ }
+ /* top结束 */
+ /* suoyin开始 */
+
+ .suoyin {
+     margin-top: -20px;
+     /* height:64px; */
+     width: auto;
+     border-bottom: 5px solid rgb(255, 80, 0);
+ }
+
+ .container2 {
+     width: 1200px;
+     margin: 0 auto;
+     height: 30px;
+     text-align: center;
+     margin-left: 324px;
+ }
+
+ .ul2 {
+     float: left;
+     list-style: none;
+     height: 5px;
+ }
+
+ .ul2 li:first-child {
+     background: rgb(255, 80, 0);
+     height: 30px;
+     width: 165px;
+     text-align: center;
+     line-height: 30px;
+     color: white;
+ }
+
+ .ul2 li .li1 {
+     font-color: orange;
+ }
+
+ .ul2 li {
+     display: inline-block;
+     font-size: 16px;
+     text-align: center;
+     width: 90px;
+     margin-left: 15px;
+ }
+
+ #li1 a {
+     color: orange;
+     font-weight: bold;
+ }
+
+ .container2 a {
+     color: #323232;
+     font-family: 微软雅黑;
+ }
+
+ .ul2 a:hover {
+     color: orange;
+     font-weight: bold;
+ }
+ /* suoyin结束 */
+ /* body */
+
+ .container3 {
+     width: 1200px;
+     margin: 0 auto;
+     margin-left: 300px;
+     /* // border:solid 1px #ccc; */
+     height: 800px;
+ }
+
+ .fenlei {
+     height: 515px;
+     width: 170px;
+     border: 1px solid rgb(255, 80, 0);
+     margin-left: 39px;
+     margin-top: -1px;
+ }
+
+ .ad1 {
+     width: 100%;
+     border-bottom: 1px solid #ccc;
+ }
+
+ .px {
+     padding-top: 6px;
+     padding-left: 8px;
+ }
+
+ .px a {
+     padding-top: 10px;
+     padding-bottom: 5px;
+     font-weight: bold;
+     font-size: 15px;
+ }
+
+ .pxx {
+     margin-top: 5px;
+ }
+
+ .pxx span a {
+     font-size: 12px;
+ }
+
+ .more {
+     color: orange;
+     font-size: 12px;
+     margin-left: 60px;
+     margin-top: 10px;
+ }
+
+ .daohang {
+     width: 970px;
+     height: 250px;
+     border: 1px solid #ccc;
+     position: absolute;
+     left: 537px;
+     top: 180px;
+ }
+
+ .swiper-button-next {
+     width: 40px;
+     height: 40px;
+     background: rgb(144, 145, 142);
+     text-align: center;
+     line-height: 40px;
+     border-radius: 20px;
+ }
+
+ .swiper-button-prev {
+     width: 40px;
+     height: 40px;
+     background: #91918e;
+     text-align: center;
+     line-height: 40px;
+     border-radius: 20px;
+     transform: rotate(180deg);
+ }
+
+ .swiper-button-prev i,
+ .swiper-button-next i {
+     font-size: 25px;
+     font-weight: bold;
+     color: white;
+ }
+
+ .swiper-container {
+     height: 300px;
+ }
+
+ .left {
+     position: absolute;
+ }
+
+ .onmouse {
+     width: 600px;
+     height: 514px;
+     border: 1px solid #ccc;
+     position: relative;
+     top: -516px;
+     left: 210px;
+     z-index: 300;
+     display: none;
+ }
+
+ .onmouse div {
+     font-size: 0.5em;
+     margin-left: 5px;
+     margin-top: -5px;
+     border-bottom: 1px solid #ccc;
+ }
+
+ .onmouse div p:first-child {
+     margin-top: 15px;
+     font-weight: bolder;
+ }
+
+ .onmouse div p span {
+     margin-left: 5px;
+ }
+
+ .tuijian {
+     position: absolute;
+     left: 339px;
+     top: 671px;
+ }
+
+ .tuijian img {
+     width: 174px;
+     height: 220px;
+ }
+
+ .middle1 {
+     width: 650px;
+     height: 370px;
+     border: 10px solid #ccc;
+     position: absolute;
+     top: 500px;
+     left: 537px;
+ }
+
+ .xuanze {
+     width: 500px;
+     height：200px;
+     display: flex;
+     justify-content: left;
+ }
+
+ .xuanze div {
+     width: 100px;
+     text-align: center;
+     line-height: 40px;
+     font-weight: bolder;
+     color: gray;
+     padding-top: 2px;
+ }
+
+ .xuanze .cai {
+     border-top: 3px solid orange;
+     color: orange;
+ }
+ /*middle开始*/
+
+ .middle1 {
+     overflow: hidden;
+ }
+
+ .Thefirst .picleft img {
+     height: 130px;
+     margin-left: 40px;
+ }
+
+ .middle1 .Thefirst .bookname1 {
+     font-weight: bolder;
+     font-size: 16px;
+     color: gray;
+     margin-left: 215px;
+     margin-top: -120px;
+ }
+
+ .newPrice {
+     margin-left: 215px;
+     margin-top: 10px;
+     font-size: 17px;
+     color: red;
+     font-weight: bolder;
+ }
+
+ .oldPrice {
+     margin-left: 280px;
+     margin-top: -17px;
+     font-size: 13px;
+ }
+
+ .desc {
+     width: 430px;
+     overflow: hidden;
+     /* 将对象作为弹性盒子显示 */
+     display: -webkit-box;
+     /* 设置子元素排列方式 */
+     -webkit-box-orient: vertical;
+     /* 设置显示的行数 */
+     -webkit-line-clamp: 3;
+     /* 将超出部分用省略号表示 */
+     text-overflow: ellipsis;
+     font-size: 12px;
+     margin-left: 214px;
+     text-indent: 8px;
+     color: gray;
+     line-height: 20px;
+     margin-top: 10px;
+ }
+
+ .middle1 .Thebottom {
+     width: 650px;
+     height: 180px;
+     display: flex;
+     justify-content: space-around;
+     margin-top: 20px;
+ }
+ .Thebottom>div{
+     width: 200px;
+     text-align: center;
+     line-height: 20px;
+ }
+
+
+ .picbottom img {
+     height: 100px;
+ }
+
+ .newPrice2 {
+     font-size: 16px;
+     color: red;
+     font-weight: bolder;
+     height: 15px;
+     line-height: 15px;
+ }
+
+ .oldPrice2 {
+     font-size: 13px;
+     position: relative;
+     left: 45px;
+     top: -15px;
+      height: 15px;
+     line-height: 15px;
+ }
+
+ .title1 {
+     width: 150px;
+     font-size: 13px;
+ }
+
+ /*middle结束*/
+
+ .changxiao {
+     width: 280px;
+     height: 379px;
+     border: 1px solid #ccc;
+     position: relative;
+     top: 344px;
+     left: 925px;
+ }
+
+ .wenzi {
+     border-bottom: 2px solid red;
+     color: orange;
+     font-weight: bold;
+ }
+
+ .wenzi span {
+     float: right;
+     font-size: 0.25em;
+     color: gray;
+ }
+
+ .lxpic {
+     width: 1168px;
+     display: flex;
+     justify-content: space-between;
+     margin-left: 338px;
+     margin-top: -55px;
+ }
+
+ .lxpic img {
+     width: 380px;
+ }
+
+ .bookName {
+     padding: 5px 0;
+     border-bottom: 1px solid #ccc;
+     height: 25px;
+     display: flex;
+     justify-content: space-between;
+ }
+
+ .bookName p:first-child {
+     width: 220px;
+     font-size: 12px;
+     margin-left: 15px;
+     line-height: 25px;
+     overflow: hidden;
+     display: -webkit-box;
+     -webkit-box-orient: vertical;
+     -webkit-line-clamp: 1;
+     text-overflow: ellipsis;
+ }
+
+ .bookName p:nth-child(2) {
+     width: 20px;
+     height: 100%;
+ }
+ /*淘书团开始*/
+
+ .container5 {
+     width: 1200px;
+ }
+
+ .taoshu {
+     font-size: 20px;
+     font-weight: bolder;
+     color: orange;
+     position: relative;
+     left: 340px;
+     top: 10px;
+     border-bottom: 2px solid #ccc;
+     height: 30px;
+ }
+
+ .father {
+     height: 200px;
+     position: relative;
+     top: 10px;
+     left: 340px;
+     display: flex;
+     justify-content: space-between;
+     margin-left: -10px;
+ }
+
+ .pic4 img {
+     width: 290px;
+ }
+
+ .pic4 {
+     border: 1px solid gray;
+     height: 300px;
+     margin-left: 10px;
+ }
+
+ .pic4 p {
+     overflow: hidden;
+     display: -webkit-box;
+     -webkit-box-orient: vertical;
+     -webkit-line-clamp: 3;
+     text-overflow: ellipsis;
+     font-size: 12px;
+     line-height: 20px;
+ }
+
+ .pic4 .price {
+     color: red;
+     display: inline-block;
+     font-size: 16px;
+     margin-top: 20px;
+ }
+
+ .pic4 .oldprice {
+     color: gray;
+ }
+
+ .pic4 .publishing {
+     display: inline-block;
+     margin-left: 30px;
+     font-size: 12px;
+ }
+ /*淘书团结束*/
+ /* 新书开始 */
+
+ .xinshu {
+     margin-top: 120px;
+     font-size: 20px;
+     font-weight: bolder;
+     color: orange;
+     position: relative;
+     left: 340px;
+     top: 10px;
+     height: 30px;
+ }
+
+ .pic5 {
+     border: 1px solid gray;
+     height: 200px;
+     float: left;
+     width: 197px;
+ }
+
+ .pic5 img {
+     width: 100px;
+     height: 140px;
+     position: absolute;
+     margin-left: 76px;
+ }
+
+ .father2 {
+     height: 200px;
+     position: relative;
+     top: 10px;
+     left: 340px;
+ }
+
+ .father2 p {
+     font-size: 12px;
+     padding-top: 8px;
+ }
+
+ .newbookpic {
+     position: relative;
+     left: 10px;
+     top: -30px;
+ }
+
+ .pic5 .price {
+     color: red;
+     display: inline-block;
+     font-size: 16px;
+ }
+
+ .newbookold {
+     color: gray;
+ }
+ /*  .newbookpic img:nth-child(5){
+         width:80px;
+         height:40px;
+      } */
+ /* 新书结束 */
+ /* 平台自营开始 */
+
+ .container6 {
+     width: 1200px;
+     margin: 0 auto;
+     margin-left: 340px;
+     /* // border:solid 1px #ccc; */
+     height: 300px;
+     margin-top: 40px;
+ }
+
+ .neirong {
+     display: flex;
+     justify-content: flex-start;
+     background: #ccc;
+     text-align: center;
+     line-height: 30px;
+ }
+
+ .neirong div:first-child {
+     width: 180px;
+     height: 40px;
+     text-align: left;
+     background: orange;
+     color: white;
+     line-height: 30px;
+     font-size: 25px;
+     text-align: center;
+    line-height: 40px;
+ }
+
+ .neirong .fourzuhe {
+     width: 450px;
+ }
+
+ .neirong .fourzuhe span{
+     display: inline-block;
+     width: 100px;
+     height: 31px;
+     box-sizing: border-box;
+     border-top: 3px solid #ccc;
+ }
+
+ .leftpic1 {
+     border: 1px solid #ccc;
+     height: 340px;
+     width: 180px;
+     margin-top: 10px;
+     text-align: center;
+ }
+ .leftpic1>div:last-child{
+    display: flex;
+    flex-direction: column;
+    flex:1;
+   
+ } 
+ .rightpic1 {
+     border: 1px solid #ccc;
+     height: 350px;
+     width: 1008px;
+     float: left;
+     position: relative;
+     top: -342px;
+     left: 190px;
+     display: flex;
+     justify-content: space-between;
+     flex-wrap: wrap;
+     text-align: center;
+     font-size: 12px;
+ }
+
+ .leftbiaoti {
+     font-size: 12px;
+     text-align: center;
+     margin-top: 10px
+ }
+
+ .leftpic1>div img {
+     width: 160px;
+ }
+
+ .zytj {
+     font-size: 20px;
+     color: orange;
+     text-align: center;
+     font-weight: bolder;
+     padding-top: 20px;
+     padding-bottom: 10px;
+ }
+
+ .rightdiv {
+     width: 170px;
+     flex-wrap: wrap;
+ }
+
+ .rightdiv span {
+     font-size: 12px;
+     display: inline-block;
+ }
+
+ .rightdiv img {
+     height: 100px;
+     flex-wrap: wrap;
+ }
+
+ .morenew {
+     color: red;
+     display: inline-block;
+     font-size: 25px;
+ }
+
+ .moreold {
+     color: gray;
+ }
+ /* 平台自营结束 */
+ /* 出版社直销开始 */
+
+ .container7 {
+     width: 1200px;
+     margin: 0 auto;
+     margin-left: 340px;
+     /* // border:solid 1px #ccc; */
+     height: 300px;
+     margin-top: -290px;
+     float: left;
+ }
+
+ .neirong2 {
+     background: gray;
+     height: 40px;
+ }
+
+ .neirong2 div {
+     width: 180px;
+     height: 30px;
+     color: skyblue;
+     font-size: 30px;
+ }
+
+ .leftpic2 {
+     border: 1px solid #ccc;
+     height: 440px;
+     width: 180px;
+     background: #eee;
+     text-align: left;
+     position: relative;
+ }
+
+.leftpic2>div:first-child{
+     overflow: hidden;
+     height: 400px;
+}
+
+ .leftpic2>div:first-child>div {
+     height: 40px;
+     font-size: 14px;
+     /* margin-top:5px; */
+     /* margin-left: 15px; */
+     line-height: 40px;
+     position: relative;
+ }
+
+ .divcss {
+     background: gray;
+ }
+
+ .rightpic3 {
+     // border: 1px solid #ccc;
+     height: 424px;
+     width: 1008px;
+     float: left;
+     position: relative;
+     top: -426px;
+     left: 190px;
+ }
+
+ .div14 {
+     width: 20%;
+ }
+
+ .div15 {
+     display: flex;
+     justify-content: space-between;
+ }
+
+ .biaozhifu {
+     position: absolute;
+     bottom: 0;
+     right: 0;
+     width: 180px;
+     text-align: right;
+     z-index: 99;
+     background-color: #eee;
+     border-top: 1px solid #ccc;
+ }
+ .rightpic3>div:first-child{
+     border-bottom: 1px solid #ccc;
+ }
+  .rightpic3>div:first-child h2{
+     margin-left: 30px;
+  }
+  .rightpic3>div:first-child p{
+     font-size: 12px;
+     text-indent: 5em;
+     line-height: 30px;
+     padding-bottom: 30px;
+  }
+  .rightpic3>div:last-child{
+      text-align: center;
+  }
+  .div14{
+     font-size: 12px;
+  }
+  .div14 img{
+     margin-top: 20px;
+     width: 100px;
+     height: 100px;
+  }
+   .div14 div:nth-child(n+2){
+     width: 100px;
+     margin:0 auto;
+     height: 50px;
+   }
+   .div14 div:last-child span:first-child{
+     color: red;
+     font-size: 14px;
+     margin-right:10px; 
+     font-weight: bolder;
+   }
+   .div14 div:last-child span:last-child{
+     color: gray;
+     font-size: 14px;
+   }
+ /* 出版社直销结束 */
